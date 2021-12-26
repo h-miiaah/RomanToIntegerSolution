@@ -12,4 +12,8 @@
         D: 500,
         M: 1000,
     };
+
+    const stringLength = s.length;
+    let total = 0;
+    
 };
