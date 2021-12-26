@@ -25,3 +25,12 @@
     }
     return total;
 };
+
+/*
+
+- Check if the current letter is followed by one with a higher value (indicating a deduction)
+- Remove the current letter's numeric value from the total
+- Add the current letter's numeric value to the total
+- Return the total
+
+*/
