@@ -15,5 +15,13 @@
 
     const stringLength = s.length;
     let total = 0;
-    
+
+    for (let i = 0; i < stringLength; i++) {
+        if (i < stringLength - 1 && romanNumerals[s[i + 1]] > romanNumerals[s[i]]) {
+            total -= romanNumerals[s[i]];
+        } else {
+            total += romanNumerals[s[i]];
+        }
+    }
+    return total;
 };
